@@ -1,5 +1,6 @@
 <script>
 	import Counter from './Counter.svelte';
+	import Banner from '$lib/components/banner.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcomeFallback from '$lib/images/svelte-welcome.png';
 </script>
@@ -25,7 +26,7 @@
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
 
-	<Counter />
+	<Banner />
 </section>
 
 <style>

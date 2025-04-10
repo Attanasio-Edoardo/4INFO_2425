@@ -1,8 +1,11 @@
 <script>
-    let name = 'John Doe';
+    let name = 'Edoardo Attanasio';
+    function reverse_string(str){
+        return str.split('').reverse().join('').toUpperCase()
+    }
 </script>
 
-<h1>My name is {name}</h1>
+<h1>My name is {reverse_string(name)}</h1>
 
 <style>
     h1 {
